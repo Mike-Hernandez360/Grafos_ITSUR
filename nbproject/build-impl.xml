@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+*** GENERATED FROM project.xml - DO NOT EDIT  ***
+***         EDIT ../build.xml INSTEAD         ***
+-->
+<project xmlns:if="ant:if" xmlns:unless="ant:unless" name="Grafos_ITSUR-impl" default="default" basedir="..">
+    <fail message="Please build using Apache Ant 1.8.0 or higher.">
+        <condition>
+            <not>
+                <antversion atleast="1.8.0"/>
+            </not>
+        </condition>
+    </fail>
+    <target name="default" depends="test,jar,javadoc" description="Build and test whole project."/>
+    <target name="-pre-init"/>
+    <target name="-init-private"/>
+    <target name="-init-user"/>
+    <target name="-init-project"/>
+    <target name="-do-init"/>
+    <target name="-post-init"/>
+    <target name="-init-check"/>
+    <target name="-init-macrodef-property"/>
+    <target name="-init-macrodef-javac"/>
+    <target name="-init-macrodef-junit"/>
+    <target name="-init-macrodef-nbjpda"/>
+    <target name="-init-macrodef-debug"/>
+    <target name="-init-macrodef-java"/>
+    <target name="-init-pres-debug"/>
+    <target name="-init-ap-cmdline-listeners"/>
+    <target name="-init-ap-cmdline-properties"/>
+    <target name="-init-macrodef-nb-javac"/>
+    <target name="init"/>
+    <target name="-deps-jar-init"/>
+    <target name="deps-jar"/>
+    <target name="-check-automatic-build"/>
+    <target name="-clean-after-automatic-build"/>
+    <target name="-verify-automatic-build"/>
+    <target name="-pre-pre-compile"/>
+    <target name="-pre-compile"/>
+    <target name="-compile-depend"/>
+    <target name="-do-compile"/>
+    <target name="-post-compile"/>
+    <target name="compile"/>
+    <target name="-pre-compile-single"/>
+    <target name="-do-compile-single"/>
+    <target name="-post-compile-single"/>
+    <target name="compile-single"/>
+    <target name="-pre-compile-test"/>
+    <target name="-do-compile-test"/>
+    <target name="-post-compile-test"/>
+    <target name="compile-test"/>
+    <target name="-pre-compile-test-single"/>
+    <target name="-do-compile-test-single"/>
+    <target name="-post-compile-test-single"/>
+    <target name="compile-test-single"/>
+    <target name="-pre-jar"/>
+    <target name="-do-jar"/>
+    <target name="-post-jar"/>
+    <target name="jar"/>
+    <target name="-pre-run"/>
+    <target name="-do-run"/>
+    <target name="-post-run"/>
+    <target name="run"/>
+    <target name="-pre-debug"/>
+    <target name="-do-debug"/>
+    <target name="-post-debug"/>
+    <target name="debug"/>
+    <target name="-pre-profile"/>
+    <target name="-do-profile"/>
+    <target name="-post-profile"/>
+    <target name="profile"/>
+    <target name="-pre-javadoc"/>
+    <target name="-do-javadoc"/>
+    <target name="-post-javadoc"/>
+    <target name="javadoc"/>
+    <target name="test"/>
+    <target name="test-single"/>
+    <target name="debug-test"/>
+    <target name="debug-test-single"/>
+    <target name="profile-test"/>
+    <target name="profile-test-single"/>
+    <target name="clean"/>
+</project>
